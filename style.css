@@ -1,0 +1,783 @@
+/* Index page begin */
+#wrapper{
+	background-color: whitesmoke;
+}
+#header h1{
+	padding:0;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 60px;
+	color: rgb(24, 23, 23);
+	
+}
+
+
+#nav ul{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	background-color: #333;
+	color: pink;
+}
+#brandName{
+	color: rgb(103, 209, 241);
+	font-size: 28px;
+	font-weight: bold;
+	font-family: "Oswald", sans-serif;
+	border-right: 3px solid lightgrey;
+	padding-right: 10px;;
+	
+}
+#home, .nav-item, #navbarDropdown, #ref{
+	color: rgb(247, 175, 43);
+	padding-right: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Andika New Basic', sans-serif; ;
+}
+#home:hover, .nav-item:hover, #navbarDropdown:hover, #ref:hover{
+	color: rgb(243, 100, 49);
+	
+}
+.dropdown-item, .dropdown-menu{
+	background-color: plum;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.dropdown-item:hover{
+	background-color: indigo;
+	color: powderblue;
+}
+#nav li{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 200;
+	/*letter-spacing: 2px;*/
+	padding: 15px;
+	
+}
+#nav1 ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	
+	background-color:#333;
+}
+#nav1 li{
+	float: left;
+
+}
+#nav1 li a{
+	display: block;
+	padding: 14px 16px;
+	color: wheat;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+#nav1 li a:hover{
+	background-color: #111 ;
+
+}
+.imgtable1{
+	padding-top: 20px;
+	
+}
+/*.imgtb{
+	padding:5px;
+	border:3px solid #031163;
+}*/
+/*.h1, .m1, .k1, .m2, .c1, .r1{
+	
+	background-color: #aed6dc;
+	opacity: 0.9;
+	color: black;
+	padding: 10px 22px 10px 22px;
+	text-decoration: none;
+	border-radius: 4px;
+	border-color: slategrey;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+h1{
+	font-family: "Open sans";
+	font-size: 50px;
+	color: indigo;
+	text-decoration: underline;
+}
+.h1:hover, .m1:hover, .k1:hover, .m2:hover, .c1:hover, .r1:hover{
+	background-color: salmon;
+}
+.h2, .m3, .k2, .m4, .c2, .r2{
+	size: 0px;
+}*/
+
+/*.outro1{
+	background-color: whitesmoke;
+}*/
+
+/*.dropbtn {
+	background-color: rgb(152, 215, 255);
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: 2px solid black;
+	cursor: pointer;
+	border-radius: 3px;;
+	width:180px;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	
+	
+}
+
+.dropbtn:hover, .dropbtn:focus{
+	background-color: rgb(52, 112, 165);
+	color: lightcyan;
+	
+}
+
+.dropdownNav{
+	position: relative;
+	
+	display: inline-block;
+	
+	
+}
+
+
+.dropdown-content {
+	display: none;
+	position: relative;
+	background-color:#fad0c9ff;
+	width: 180px;
+	box-shadow: 0px 8px 16px 0px rbga(0,0,0,0.2);
+	z-index:1;
+	align-self: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	align-self: center;
+}
+.dropdown-content a:hover{
+	background-color: rgb(136, 136, 132);
+	color: lightcyan
+}
+.show{
+	display: block;
+}*/
+
+#image1{
+	padding-top: 25px;
+	
+}
+.computerSet{
+	background-size: contain;
+	height: 500px;
+	width: auto\9;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 5px solid rgb(68, 154, 235);
+	padding: 10px;
+}
+
+
+.heading{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 20px;;
+	
+	font-size: 45px;
+	color: rgb(8, 65, 172);
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+
+}
+.introBody{
+	font-family: 'Arvo', serif;
+
+	font-size: 25px;
+	color: rgb(77, 77, 75);
+	
+
+}
+/*#dropdownIns{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 22px;
+	font-weight: bold ;
+	color: #051885;
+}*/
+
+.introMonitor{
+	height: 300px;
+	width: auto\9;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding: 50px;*/
+	/* border: 5px solid rgb(68, 187, 235); */
+
+	border: 5px solid black;
+}
+
+.introMouse{
+	height: 300px;
+	width: auto\9;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding: 50px;*/
+	border: 5px solid black;
+}
+
+.introKeyboard{
+	height: 300px;
+	width: auto\9;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding: 50px;*/
+	border: 5px solid black;
+}
+
+.introCPU{
+	height: 300px;
+	width: auto\9;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border: 5px solid black;
+}
+.nextButton{
+	float: right;
+	background-color: #031163;
+	color: #ffc13b;
+	padding: 6px 14px 6px 14px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+	border-radius: 3px;
+	padding-bottom: 5px;
+}
+.tb{
+	table-layout: fixed;
+	border-collapse: separate;
+	border-spacing: 0 15px;
+
+}
+body{
+	background-color: whitesmoke;
+	
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.backButton, .refButton{
+	float: left;
+	background-color: #031163;
+	color: #ffc13b;
+	padding: 6px 14px 6px 14px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+	border-radius: 4px;
+	padding-bottom: 5px;;
+}
+
+.nextButton:hover, .backButton:hover, .refButton:hover{
+	background-color: rgb(248, 163, 153);
+}
+
+.monMouse, .keyCPU{
+	font-family: 'Crete Round', serif;
+	font-size: 35px;
+	padding: 10px;
+	color: rgb(8, 65, 172);
+	font-weight: bold;
+}
+
+#main ol{
+	text-align: center;
+	
+	margin: 0;
+	padding: 0;
+}
+
+#main ul{
+	text-align: center;
+}
+
+#main p{
+	text-align: center;	
+}
+
+#myBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 55px; /* Place the button at the bottom of the page */
+	right: 25px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: 2px solid black; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: #95dbe5ff; /* Set a background color */
+	color: black; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 5px; /* Some padding */
+	padding-top: 3px;
+	border-radius: 5px ;/* Rounded corners */
+}
+  
+  #myBtn:hover {
+	background-color: #fc766aff; /* Add a dark-grey background on hover */
+  }
+
+
+
+
+/* End of Index page */
+
+/* Begin Monitor page */ 
+.mheading{
+	font-family:  'Crete Round', serif;
+	font-size: 45px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #e94b3cff;
+}
+/*.bg-img{
+	background-image: url("bg2.png");
+	min-height: auto;
+	background-position: center ;
+	background-size: cover;
+	position: relative;
+}*/
+
+.monIntro{
+	font-family: 'Arvo', serif;
+	font-size: 25px;
+	color: rgb(77, 77, 75);
+}
+
+.vd, .moncircuit, .casing1, .ps{
+	font-family: 'Crete Round', serif;
+	font-size: 29px;
+	color: #e94b3cff;
+
+}
+
+.mHead{
+	font-family: "Crete Round", serif;
+	font-size: 29px;
+	color: #e94b3cff;
+}
+
+
+.monitorcomponents{
+	font-family: 'Arvo', serif;
+	font-size: 25px;
+	color: rgb(77, 77, 75);
+
+}
+.monitorlist{
+	text-align: center;
+	/*cellspacing: 4;
+	cellpadding: 4; */
+	margin: auto;
+	padding: auto;
+}
+
+
+
+.visualdevice{
+	height: 450px;
+	width: auto\9;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin: auto;
+	
+	border: 5px solid #e94b3cff;
+}
+
+.monitorcircuitry{
+	height: 450px;
+	width: auto\9;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin: auto;
+	
+	border: 5px solid #e94b3cff;
+}
+
+.monitorcasing{
+	height: 350px;
+	width: auto\9;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin: auto;
+	
+	border: 5px solid #e94b3cff;
+}
+
+.monitorpowersupply{
+	height: 350px;
+	width: auto\9;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin: auto;
+	
+	border: 5px solid #e94b3cff ;
+}
+
+/* End of Monitor page */
+
+/* Begin Keyboard page */
+.keyhead{
+	font-family: "New Century Schoolbook", Tex Gyre Schola, serif;
+	font-size: 45px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	text-align: center;
+	color: #408d41;
+
+}
+
+.keyboardlist{
+	text-align: center;
+	font-size: 29px;
+	font-family: serif;
+	margin: 0;
+	padding: 5px;
+	color: #408d41;
+}
+.keyboardHead{
+	font-family: serif;
+	font-size: 29px;
+	color: #408d41;
+}
+.keyIntro{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	color: rgb(77, 77, 75);
+}
+
+.keyboardComponents{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	color: rgb(77, 77, 75);
+}
+
+.keyboardpic{
+	border: 5px solid black;
+	width: auto\9;
+	max-width: 100%;
+}
+.keymatrix{
+	max-width: 100%;
+	height: 300px;
+	width: auto\9;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid black;
+	margin: auto;
+}
+
+.bounce{
+	height: 300px;
+	width: auto\9;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid black;
+	margin: auto;
+}
+
+.microprocessor{
+	height: 300px;
+	width: auto\9;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid black;
+	margin: auto;
+}
+
+
+
+
+
+/* End of keyboard page */
+
+/* Begin Mouse page */
+
+.mouseHead{
+	font-family: "New Century Schoolbook", Tex Gyre Schola, serif;
+	font-size: 45px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	text-align: center;
+	color: #b1624eff;
+}
+
+.mouselist{
+	text-align: center;
+	
+	font-size: 29px;
+	font-family: serif;
+	
+	margin: 0;
+	padding: 5px;
+	color:#b1624eff;
+}
+
+.mhead{
+	font-family: serif;
+	font-size: 29px;
+	color: #b1624eff;
+
+}
+.mouseIntro{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	color: rgb(77, 77, 75);
+}
+
+.mouseComponents{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	color: rgb(77, 77, 75);
+}
+
+.cablemouse{
+	height: 300px;
+	width: auto\9;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin: auto;
+	border: 5px solid black;
+}
+
+.wirelessmouse{
+	height: 300px;
+	margin: auto;
+	width: auto\9;
+	max-width: 100%;
+	border: 5px solid black;
+}
+
+.imgtable{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.scrollwheel{
+	height: 400px;
+	margin: auto;
+	width: auto\9;
+	max-width: 100%;
+	border: 5px solid black;
+}
+
+.mouseled{
+	height: 300px;
+	margin: auto;
+	padding: 10px;
+	width: auto\9;
+	max-width: 100%;
+	border: 5px solid black;
+}
+
+.mousecircuit{
+	height: 300px;
+	width: auto\9;
+	max-width: 100%;
+	padding: 10px;
+	margin: auto;
+
+	border: black;
+}
+/* Begin CPU page */
+
+.cpuhead{
+	text-align: center;
+	font-family: "New Century Schoolbook", Tex Gyre Schola, serif;
+	font-size: 45px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	color: indigo;
+
+	
+}
+
+.cpulist{
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+	font-size: 29px;
+	font-family: serif;
+	
+	color: indigo;
+}
+.cpuIntro{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 29px;
+	color: rgb(77, 77, 75);
+}
+
+
+.cpuComponent{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 28px;
+	color: rgb(77, 77, 75);
+}	
+
+.cHead{
+	font-family: serif;
+	font-size: 28px;
+	color: indigo;
+}
+
+.cpupic{
+	height: 500px;
+	width: auto\9;
+	max-width: 100%;
+	margin: auto;
+	border: 5px solid #9f6b99ff;
+}
+
+.motherboardCPU{
+	height: 400px; 
+	width: auto\9;
+	max-width: 100%;
+	margin: auto;
+	border: 5px solid  indigo;
+}
+
+.harddriveCPU{
+	height: 300px;
+	width: auto\9;
+	max-width: 100%;
+	margin: auto;
+	
+	border: 5px solid  indigo;
+}
+
+.processorcpu{
+	height: 400px;
+	width: auto\9;
+	max-width: 100%;
+	margin: auto;
+	border: 5px solid  indigo;
+}
+
+.powersupplycpu{
+	height: 350px;
+	width: auto\9;
+	max-width: 100%;
+	margin: auto;
+	border: 5px solid  indigo;
+}
+
+.diskdrivecpu{
+	height: 400px;
+	width: auto\9;
+	max-width: 100%;
+	margin: auto;
+	border: 5px solid  indigo;
+	
+}
+/* End of CPU*/
+
+/*Begin Reference page */
+
+.referenceHead{
+	text-align: center;
+	font-family: "New Century Schoolbook", Tex Gyre Schola, serif;
+	font-size: 45px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: rgb(219, 62, 51);
+	
+}
+.refList{
+	padding: 5px;
+	text-align: center;
+	font-size: 29px;
+	font-family: serif;
+	color: orange;
+}
+
+
+
+
+
+
+
+#introLink, .monlink1, #keyLink, #mouseLink, #cpuLink{
+	color: rgb(104, 183, 233);
+	font-size: 20px;
+}
+#introLink:hover, .monlink1:hover, #keyLink:hover, #mouseLink:hover, #cpuLink:hover {
+	background-color: midnightblue;
+	color: rgb(216, 211, 207);
+}
+#introLink:visited, .monlink1:visited, #keyLink:visited, #mouseLink:visited, #cpuLink:visited{
+	color: palevioletred;
+}
+#introLink:active, .monlink1:active, #keyLink:active, #mouseLink:active, #cpuLink:active{
+	color: rgb(216, 207, 199);
+	background-color: indigo;
+}
+a{
+	margin: auto;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #e9e9e9;
+  }
+  
+  /* Style the links inside the navigation bar */
+ /* .topnav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }*/
+  
+ 
